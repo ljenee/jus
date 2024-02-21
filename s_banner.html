@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S_BANNER</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        ul{list-style: none;}
+        a{text-decoration: none; color: #000;}
+        .main_banner{
+          width: 80%;
+          margin: 50px auto;
+          overflow: hidden;
+          display: flex;
+          max-width: 1500px;
+        }
+        .main_banner>div{
+          flex: 1;
+          width: 350px;
+          height: 100%;
+          overflow: hidden;
+          position: relative;
+          transition: all 0.5s ease-in-out;
+        }
+        .main_banner div p{
+          position: absolute;
+          bottom: 30px;
+          left: 30px;
+          opacity: 1;
+          transition: all 0.5s ease-in-out;
+          font-family: 'NanumSquare Neo OTF';
+        }
+        .main_banner div p b{
+            font-size: 24px;
+        }
+        .main_banner .all_width:hover{
+          flex: 2.5;
+        }
+        .main_banner>.all_width:hover p{
+          opacity: 1;
+        }
+        .main_banner>.all_width:hover a img{
+           height: 100%;
+        }
+      </style>
+</head>
+
+<body>
+    <div class="main_banner">
+        <div class="all_width">
+            <a href="/category/best100/42/">
+                <img src="./images/img1.jpg">
+                <p>
+                    <b>BEST</b>
+                    <br>
+                    공구홀릭 이번주 BEST 상품
+                </p>
+            </a>
+        </div>
+        <div class="all_width">
+            <a href="/category/summer☀/101/">
+                <img src="./images/img2.jpg">
+                <p>
+                    <b>❄️Winter</b>
+                    <br>
+                    겨울 신상 BEST 아이템
+                </p>
+            </a>
+        </div>
+        <div class="all_width">
+            <a href="/category/ACC/48/">
+                <img src="./images/img3.jpg">
+                <p>
+                    <b>ACC</b>
+                    <br>
+                    코디의 완성! 공구홀릭 악세사리
+                </p>
+            </a>
+        </div>
+        <div class="all_width">
+            <a href="/article/이벤트/2/24655/">
+                <img src="./images/img4.jpg">
+                <p>
+                    <b>APP DOWN</b>
+                    <br>
+                    오직 앱에서 받을 수 있는 다양한 혜택
+                </p>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
