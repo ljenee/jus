@@ -10,9 +10,9 @@
 */
 @font-face {
     font-family: "uicons-solid-rounded";
-    src: url("./uicons-solid-rounded.woff2") format("woff2"),
-    url("./uicons-solid-rounded.woff") format("woff"),
-    url("./uicons-solid-rounded.eot#iefix") format("embedded-opentype");
+    src: url("https://github.com/ljenee/jus/blob/main/webfonts/uicons-solid-rounded.woff2") format("woff2"),
+    url("https://github.com/ljenee/jus/blob/main/webfonts/uicons-solid-rounded.woff") format("woff"),
+    url("https://github.com/ljenee/jus/blob/main/webfonts/uicons-solid-rounded.eot") format("embedded-opentype");
     font-display: swap;
 }
 
