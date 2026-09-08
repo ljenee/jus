@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web design - 상품등록</title>
+    <!-- 프리텐다드 폰트css -->
+    <link rel="stylesheet" href="./css/pretendard-subset.css">
+    <link rel="stylesheet" href="./css/pretendard.css">
+    <!-- font-css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="layout">
+        <aside class="sidebar">
+            <div class="sidebar-logo">
+                <div class="small">WORK GUIDE</div>
+                <h1><a href="./index.html" style="color: #fff;">인수인계서</a></h1>
+            </div>
+            <div class="menu-title">CONTENTS</div>
+            <nav>
+                <a href="">#상품등록</a>
+                <a href="#cafe24">CAFE24 상품등록법</a>
+                <a href="#ftpup">이미지파일 업로드방법</a>
+                <a href="#ss">스마트스토어 상품등록법</a>
+            </nav>
+        </aside>
+
+        <main class="main">
+            <div class="hero">
+                <div></div>
+                <h2>상품 등록</h2>
+                <p>신규 상품의 기본 정보 및 옵션을 등록하고, 상품 이미지와 상세페이지를 업로드합니다.<br>
+                    상품명, 가격, 옵션, 재고, 카테고리 등을 확인한 후 최종 등록합니다.</p>
+            </div>
+
+
+            <section id="cafe24">
+                <div class="section-card">
+                    <div class="section-number">01</div>
+                    <h3>CAFE24 상품등록법</h3>
+                    <div class="section-card-inner">
+                        <a title="바로가기" target="_blank" rel="noopener" href="https://past.gcol.co.kr/adm/"><img
+                                src="./images/cafe24_upload01.png"></a>
+                        <p>⬆️ 이미지 클릭 시 사이트로 이동 → 로그인후 메인페이지 진입</p>
+                        <img src="./images/cafe24_upload02.png">
+                        <p>🖍️ 상품메뉴 → 마진율 계산 클릭</p>
+                        <img style="margin-bottom: 30px;" src="./images/cafe24_upload03_01.png">
+                        <h4>미등록 상품 검색하는 법-🅐</h4>
+                        <p>🖍️ 최초입고일을 직전 한달로 기간을 잡는다 → 작업상태를 작업전으로 바꾼다 → 검색클릭</p>
+                        <img style="margin-bottom: 30px;" src="./images/cafe24_upload03_02.png">
+                        <h4>미등록 상품 검색하는 법-🅑</h4>
+                        <p>🖍️ 작업자란에 '입고중' 입력 → 검색클릭</p>
+                        <img src="./images/cafe24_upload04.png">
+                        <p>🖍️ 업로드 할 상품선택하기 → 카페24(공구홀릭)버튼 클릭 → .csv형식으로 파일 다운로드</p>
+                        <a title="바로가기" target="_blank" rel="noopener" href="https://eclogin.cafe24.com/Shop/"><img
+                                src="./images/cafe24_upload05.png"></a>
+                        <p>⬆️ 이미지 클릭 시 사이트로 이동</p>
+                        <img src="./images/cafe24_upload06.png">
+                        <p>🖍️ 상품탭 클릭</p>
+                        <img src="./images/cafe24_upload07.png">
+                        <p>🖍️ 상품관리 클릭 → 상품 엑셀 관리 페이지 진입</p>
+                        <img src="./images/cafe24_upload08.png">
+                        <p>🖍️ 주소표시줄 옆 다운로드 버튼 클릭 → 최근 다운로드 기록 팝업에서 .csv파일을 드래그해서 네모칸에 드롭 → 엑셀 업로드 버튼 클릭</p>
+                        <img src="./images/cafe24_upload09.png">
+                        <p>🖍️ 확인</p>
+                        <img src="./images/cafe24_upload10.png">
+                        <p>🖍️ 잠시 기다리면 진행완료란에 결과값이 나타납니다.<br>실패 일경우 클릭하면 실패사유가 나옵니다<br>n개 성공 문구가 나타나면 업로드 완료</p>
+                        <img src="./images/cafe24_upload11.png">
+                        <p>🖍️ 상품목록 클릭 → 업로드 완료된 상품명 클릭 → 팝업으로 진입</p>
+                        <img class="popup" src="./images/cafe24_upload12.png">
+                        <p>⬆️ 상품 수정 팝업 화면입니다 스크롤</p>
+                        <img class="popup" src="./images/cafe24_upload13.png">
+                        <p>🖍️ 지컬렉션 마진율 페이지(<a
+                                href="https://eclogin.cafe24.com/Shop/">https://eclogin.cafe24.com/Shop/</a>)에서 상품 카테고리와
+                            계절분류를 확인 → 해당하는 카테고리 선택<br>→ 적용 클릭(여름,가을을 추가해야하면 SUMMER 선택후 적용클릭, AUTUMN 선택후 적용클릭 <span
+                                class="highligh">총 두번 적용을 눌러야함</span> )<br>→ 상품분류에 카테고리가 잘 적용되었는지 확인</p>
+                        <img class="popup" src="./images/cafe24_upload14.png">
+                        <p>🖍️ 메인 페이지 진열 설정에 NEW ITEM 체크 → 1+1상품 진열시 함께 체크하기<br><span class="comment">🔍 1+1상품은 세트
+                                아이템입니다<br>ex)상하의세트,투피스세트,벨트세트,잠옷세트,나시가디건세트 등 두종류의 아이템이 함께 판매되는 경우</span></p>
+                        <img class="popup" src="./images/cafe24_upload15.png">
+                        <p>🖍️ 상품 상세 설명 - 에디봇 작성 클릭 → 확인</p>
+                        <img src="./images/cafe24_upload16.png">
+                        <p>🖍️ 새로 작성하기 클릭</p>
+                        <img src="./images/cafe24_upload17.png">
+                        <p>🖍️ 템플릿 - 내 보관함 - 기본템플릿 - 변경하기 클릭</p>
+                        <img src="./images/cafe24_upload18.png">
+                        <p>🖍️ 이미지 탭 클릭 → 업로드 클릭</p>
+                        <img src="./images/cafe24_upload19.png">
+                        <p>⬆️ 상품 상세이미지 전체 선택 후 열기 클릭</p>
+                        <img src="./images/cafe24_upload20.png">
+                        <p>⬆️ 이미지 업로드 중 화면</p>
+                        <img src="./images/cafe24_upload21.png">
+                        <p>🖍️ 예 클릭</p>
+                        <img src="./images/cafe24_upload22.png">
+                        <p>🖍️ 인트로 이미지(상품코드_intro.jpg)도 업로드 하기<br>→ 업로드 된 인트로이미지 클릭하여 작업란으로 삽입시키기(맨 첫번쨰 이미지로 위치)</p>
+                        <img src="./images/cafe24_upload23.png">
+                        <p>🖍️ 이미지 분류 클릭</p>
+                        <img src="./images/cafe24_upload24.png">
+                        <p>⬆️ 이미지가 자동 분류되어 흩어져 있는 상태<br>
+                            🖍️ 대표색상 이미지에 적합한 이미지를 색상이미지로 드래그<br>
+                            상품 색상 옵션 갯수에 맞춰서 옮겨준다
+                        </p>
+                        <img src="./images/cafe24_upload25.png">
+                        <p>🖍️ 컬러칩 영역 클릭 → 스포이드로 컬러를 고른다(색상 바를 조금씩 움직여서 가장 비슷한 컬러를 골라주세요)<br>→ 선택된 컬러의 HEX코드 복사 →
+                            마진율페이지에 붙여넣기(뒤에 붙은 #xxxxxx<span style="color: red; font-weight: 800;">ff</span>는 삭제)<br>🔍
+                            마진율페이지 옵션컬러 코드 입력양식 : <span
+                                style="font-size: 20px; font-weight: 400;">{#xxxxxx|#xxxxxx}</span></p>
+                        <img src="./images/cafe24_upload26.png">
+                        <p>🖍️ 마진율 페이지에서 옵션컬려명 확인하기 → 옵션컬러명을 영문대문자로 입력하기<br><span class="comment">🏷️ 블랙 : BLACK / 화이트 :
+                                WHITE / 베이지 : BEIGE 등등</span><br>→ 대표색상 모두 선택하기(빨간색 북마크바 표시가 되어야 정상) → 수정완료 클릭</p>
+                        <img src="./images/cafe24_upload27.png">
+                        <p>🖍️ 예 클릭</p>
+                        <img src="./images/cafe24_upload28.png">
+                        <p>🖍️ 색상 클릭 → 대표색상 클릭 → 대표색상 004 선택</p>
+                        <img src="./images/cafe24_upload29.png">
+                        <p>🖍️ 작업란에 대표색상이 적용(상세문구 바로아래 위치) → 수정하려는 이미지를 클릭 후 적절한 크기로 사이즈 조정하기</p>
+                        <img src="./images/cafe24_upload30.png">
+                        <p>🖍️ 이미지 탭 클릭 → 이름순 클릭<br>→ 상품이미지 01번부터 마지막번호까지 클릭해서 삽입<br>🔍 <span class="highligh">대표컬러
+                                바로아래에</span> 01번이미지부터 삽입하기<br><span class="comment">⚠️ 주의 : 빠르게 클릭하면 이미지 삽입이 안되는 경우가
+                                있습니다. 이미지를 천천히 클릭하세요. </span></p>
+                        <img src="./images/cafe24_upload31.png">
+                        <p>🖍️ 4분할 영역에 디테일 이미지(저장명-d0x)를 적절한 크기와 위치로 조절하여 삽입<br></p>
+                        <img src="./images/cafe24_upload32.png">
+                        <p>🖍️ 사이즈 클릭하면 상품정보가 입력란에 삽입됨 → 맨 아래(디테일뷰 아래)로 위치이동 → 상품정보 편집 클릭</p>
+                        <img src="./images/cafe24_upload34.png">
+                        <p>🖍️ 템플릿 변경 클릭 → 해당하는 상품분류 불러오기 클릭</p>
+                        <img src="./images/cafe24_upload35.png">
+                        <p>🖍️ 확인 클릭</p>
+                        <img src="./images/cafe24_upload36.png">
+                        <p>🖍️ 편집완료 클릭</p>
+                        <img src="./images/cafe24_upload37.png">
+                        <p>🖍️ 상세페이지 내용(오탈자) 및 순서를 확인 → 등록 클릭<br><span class="comment">🔍 순서 : 인트로 → 대표사진 → 상세설명문구 →
+                                대표색상 → 이미지(01~마지막번호) → 디테일이미지(확대4분할) → 사이즈정보</span></p>
+                        <img src="./images/cafe24_upload38.png">
+                        <p>🖍️ 예 클릭</p>
+                        <img class="popup" src="./images/cafe24_upload39.png">
+                        <p>⬆️ 이전 팝업창으로 복귀 → 스크롤</p>
+                        <img class="popup" src="./images/cafe24_upload40.png">
+                        <p>🖍️ 옵션/재고 설정 - 옵션값 수정 클릭</p>
+                        <img class="popup" src="./images/cafe24_upload41.png">
+                        <p>🖍️ 옵션컬러 코드 붙여넣기 → 저장 클릭<br><span class="comment">🔍 마진율 페이지에서 붙여넣기한 옵션컬러코드와 동일하게 입력</span>
+                        </p>
+                        <img class="popup" src="./images/cafe24_upload42.png">
+                        <p>🖍️ 전체선택하기(체크) → 일괄설정 클릭</p>
+                        <img class="popup" src="./images/cafe24_upload43.png">
+                        <p>🖍️ 체크클릭 → 수량 9999입력 → 선택항목 일괄설정 클릭</p>
+                        <img class="popup" src="./images/cafe24_upload44.png">
+                        <p>🖍️ 스크롤해서 이미지정보 - 이미지등록 - 개별이미지등록 선택<br>→ 상세이미지 : M이미지 업로드 → 목록이미지/작은목록이미지/축소이미지 : 목록이미지 업로드
+                        </p>
+                        <img class="popup" src="./images/cafe24_upload45.png">
+                        <p>🖍️ 추가이미지등록칸에 자동으로 추가된 이미지는 모두 삭제버튼을 눌러 삭제해주세요</p>
+                        <img class="popup" src="./images/cafe24_upload46.png">
+                        <p>일반 상품 : -50% | NEW 아이콘 체크선택<br>1+1 상품 : -50% | 1+1 아이콘 체크선택</p>
+                        <img src="./images/cafe24_upload47.png">
+                        <p><br>🖍️ 확인 클릭</p>
+                        <p><br>⬇️ 이미지파일 업로드방법으로 넘어가기</p>
+
+                        <p></p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="ftpup">
+                <div class="section-card">
+                    <div class="section-number">02</div>
+                    <h3>이미지파일 업로드방법</h3>
+
+                    <div class="section-card-inner">
+
+                        <table
+                            style="width:100%; border-collapse:collapse; font-size:14px; line-height:1.6; border:1px solid #ddd;">
+                            <thead>
+                                <tr style="background:#f5f5f5;">
+                                    <th style="width:15%; padding:12px; border:1px solid #ddd; text-align:center;">
+                                        구분
+                                    </th>
+                                    <th style="width:35%; padding:12px; border:1px solid #ddd; text-align:center;">
+                                        작업내용
+                                    </th>
+                                    <th style="width:50%; padding:12px; border:1px solid #ddd; text-align:left;">
+                                        업로드 위치 / 수정 방법
+                                    </th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <!-- 상품업로드 -->
+                                <tr>
+                                    <td rowspan="3"
+                                        style="padding:12px; border:1px solid #ddd; text-align:center; font-weight:bold;">
+                                        상품업로드
+                                    </td>
+
+                                    <td style="padding:12px; border:1px solid #ddd;">
+                                        상세 이미지 업로드
+                                    </td>
+
+                                    <td style="padding:12px; border:1px solid #ddd;">
+                                        <strong>홍당무 FTP</strong><br>
+                                        <code>web &gt; product &gt; 상품코드폴더</code>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding:12px; border:1px solid #ddd;">
+                                        M/목록 이미지 업로드
+                                    </td>
+
+                                    <td style="padding:12px; border:1px solid #ddd;">
+                                        <strong>홍당무 FTP</strong><br>
+                                        <code>web &gt; product &gt; big / medium / small / tiny</code>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding:12px; border:1px solid #ddd;">
+                                        동영상 업로드
+                                    </td>
+
+                                    <td style="padding:12px; border:1px solid #ddd;">
+                                        <strong>스타일 FTP</strong><br>
+                                        <code>image &gt; product &gt; movie</code>
+                                    </td>
+                                </tr>
+
+                                <!-- 상품수정 -->
+                                <tr>
+                                    <td rowspan="4"
+                                        style="padding:12px; border:1px solid #ddd; text-align:center; font-weight:bold;">
+                                        상품수정
+                                    </td>
+
+                                    <td style="padding:12px; border:1px solid #ddd;">
+                                        이미지 수정
+                                    </td>
+
+                                    <td style="padding:12px; border:1px solid #ddd;">
+                                        <strong>홍당무 / 스타일 FTP 업로드</strong><br>
+                                        네이버는 <strong>개별 수정</strong>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding:12px; border:1px solid #ddd;">
+                                        색보정
+                                    </td>
+
+                                    <td style="padding:12px; border:1px solid #ddd;">
+                                        <strong>홍당무 / 스타일 FTP 업로드</strong><br>
+                                        네이버는 <strong>개별 수정</strong>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding:12px; border:1px solid #ddd;">
+                                        M이미지 수정
+                                    </td>
+
+                                    <td style="padding:12px; border:1px solid #ddd;">
+                                        <strong>홍당무 / 스타일 FTP</strong><br>
+                                        브랜디 &amp; 스마트스토어는 <strong>개별 수정</strong>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding:12px; border:1px solid #ddd;">
+                                        소스 수정
+                                    </td>
+
+                                    <td style="padding:12px; border:1px solid #ddd;">
+                                        <strong>카페24 / 브랜디 / 지컬 / 스마트스토어</strong><br>
+                                        각 채널별 소스 수정
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+
+                        <br><br>
+
+
+                        <!-- FTP 경로 -->
+                        <table
+                            style="width:100%; border-collapse:collapse; font-size:14px; line-height:1.6; border:1px solid #ddd;">
+                            <thead>
+                                <tr style="background:#f5f5f5;">
+                                    <th style="width:20%; padding:12px; border:1px solid #ddd; text-align:center;">
+                                        FTP
+                                    </th>
+                                    <th style="width:35%; padding:12px; border:1px solid #ddd; text-align:left;">
+                                        접속 계정
+                                    </th>
+                                    <th style="width:45%; padding:12px; border:1px solid #ddd; text-align:left;">
+                                        경로
+                                    </th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td style="padding:12px; border:1px solid #ddd; text-align:center;">
+                                        <strong>홍당무</strong>
+                                    </td>
+
+                                    <td style="padding:12px; border:1px solid #ddd;">
+                                        hongdangmoo5@hongdangmoo5.ftp.cafe24.com
+                                    </td>
+
+                                    <td style="padding:12px; border:1px solid #ddd;">
+                                        <code>/web/product/big, medium, small, tiny</code>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding:12px; border:1px solid #ddd; text-align:center;">
+                                        <strong>스타일</strong>
+                                    </td>
+
+                                    <td style="padding:12px; border:1px solid #ddd;">
+                                        style@image.styleceo.co.kr
+                                    </td>
+
+                                    <td style="padding:12px; border:1px solid #ddd;">
+                                        <code>/local_backup/stylehome/image/product/movie</code>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding:12px; border:1px solid #ddd; text-align:center;">
+                                        <strong>지컬</strong>
+                                    </td>
+
+                                    <td style="padding:12px; border:1px solid #ddd;">
+                                        dome@gcol.co.kr
+                                    </td>
+
+                                    <td style="padding:12px; border:1px solid #ddd;">
+                                        <code>/home/dome/gcol/www/data/상품등록월폴더</code>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="ss">
+                <div class="section-card">
+                    <div class="section-number">03</div>
+                    <h3>스마트스토어 상품등록법</h3>
+                </div>
+            </section>
+
+            <footer>WORK HANDOVER DOCUMENT · [09HOLIC]</footer>
+        </main>
+    </div>
+</body>
+
+</html>
